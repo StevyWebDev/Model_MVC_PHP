@@ -3,6 +3,7 @@
     "description": "Model MVC",
     "type": "library",
     "license": "Apache License",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "StevyWebDev",
