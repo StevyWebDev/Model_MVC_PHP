@@ -2,21 +2,14 @@
     "name": "stevydevweb/model_mvc_php",
     "description": "Model MVC",
     "type": "library",
-    "license": "stevyWebDev",
-    "version": "1.0.0",
+    "license": "Apache License",
     "authors": [
         {
             "name": "StevyWebDev",
             "email": "StevyWebDev@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Model\\": "Models/",
-            "Controller\\": "Controllers/",
-            "App\\": "Application"
-        }
-    },
+    "minimum-stability": "dev",
     "require": {
         "vlucas/phpdotenv": "^5.4",
         "php": ">=8.0"
