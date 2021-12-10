@@ -2,7 +2,7 @@
     "name": "stevydevweb/model_mvc_php",
     "description": "Model MVC",
     "type": "library",
-    "license": "Apache License",
+    "license": "PHP-3.01",
     "version": "1.0.0",
     "authors": [
         {
