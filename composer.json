@@ -3,11 +3,21 @@
     "description": "Model MVC",
     "type": "library",
     "license": "stevyWebDev",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "StevyWebDev",
             "email": "StevyWebDev@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Model\\": "Models/",
+            "Controller\\": "Controllers/",
+            "App\\": "Application"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
 }
