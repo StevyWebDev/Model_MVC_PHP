@@ -1,0 +1,13 @@
+{
+    "name": "stevydevweb/model_mvc_php",
+    "description": "Model MVC",
+    "type": "library",
+    "license": "stevyWebDev",
+    "authors": [
+        {
+            "name": "StevyWebDev",
+            "email": "StevyWebDev@gmail.com"
+        }
+    ],
+    "require": {}
+}
