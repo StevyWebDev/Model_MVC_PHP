@@ -3,7 +3,7 @@
     "description": "Model MVC",
     "type": "library",
     "license": "PHP-3.01",
-    "version": "1.2",
+    "version": "1.3",
     "authors": [
         {
             "name": "StevyWebDev",
@@ -17,6 +17,13 @@
             "url": "https://github.com/StevyWebDev/Model_MVC_PHP/"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Model\\": "Models/",
+            "Controller\\" : "Controllers/",
+            "App\\" : "Application/"
+        }
+    },
     "require": {
         "vlucas/phpdotenv": "^5.4",
         "php": ">=8.0"

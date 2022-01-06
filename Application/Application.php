@@ -9,6 +9,7 @@ class Application
         $controllerName = "Home";
         $task = "index";
         $params = [];
+        // $_GET['p'] = controller/methode/id/ba
 
         if(!empty($_GET['controller'])) {
             $controllerName = ucfirst($_GET['controller']);
